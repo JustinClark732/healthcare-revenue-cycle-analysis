@@ -1,5 +1,6 @@
 # healthcare-revenue-cycle-analysis
 Healthcare Revenue Cycle Intelligence Analysis
+
 Project Overview
 
 This project analyzes healthcare claims data to identify revenue cycle inefficiencies, payer reimbursement trends, denial drivers, and accounts receivable (A/R) risk across multiple infusion facilities.
@@ -45,15 +46,25 @@ Dataset Structure
 Key fields analyzed:
 
 Field	Description
+
 Claim_ID	Unique claim identifier
+
 Facility	Infusion center location
+
 Payer_Name	Insurance payer
+
 Billed_Amount	Total billed charge
+
 Allowed_Amount	Contractually allowed charge
+
 Paid_Amount	Reimbursement received
+
 Denial_Flag	Indicates denied claim
+
 Denial_Reason	Cause of denial
+
 Days_in_AR	Accounts receivable aging
+
 Key Performance Metrics
 Metric	Value
 Total Claims	13,000
@@ -62,6 +73,7 @@ Total Paid Revenue	$470.7M
 Total Denied Revenue	$76.7M
 Denial Rate	~9.4%
 Average Days in AR	~144 days
+
 Key Insights
 1. Commercial Payers Drive the Majority of Denied Revenue
 
@@ -73,6 +85,7 @@ Blue Cross Blue Shield	$13.5M
 Cigna	$10.5M
 Aetna	$9.8M
 Humana	$9.7M
+
 2. Operational Workflow Gaps Contribute to Denials
 
 Top denial drivers included:
