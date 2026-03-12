@@ -7,6 +7,8 @@ This project analyzes healthcare claims data to identify revenue cycle inefficie
 
 The objective of the analysis was to simulate how healthcare organizations can leverage data analytics and business intelligence to reduce revenue leakage, improve reimbursement performance, and accelerate cash flow.
 
+
+
 Dataset analyzed:
 
 13,000 healthcare claims
@@ -16,6 +18,8 @@ Dataset analyzed:
 Multiple commercial and government payers
 
 Financial metrics including billed, allowed, and paid amounts
+
+
 
 Business Problem
 
@@ -31,6 +35,9 @@ High-risk accounts receivable
 
 Operational bottlenecks affecting claims processing
 
+
+
+
 Tools Used
 
 SQL – data analysis and aggregation
@@ -40,6 +47,9 @@ Excel – data preparation and exploration
 Power BI / Tableau – dashboard visualization
 
 GitHub – documentation and project presentation
+
+
+
 
 Dataset Structure
 
@@ -65,6 +75,8 @@ Denial_Reason	Cause of denial
 
 Days_in_AR	Accounts receivable aging
 
+
+
 Key Performance Metrics
 Metric	Value
 Total Claims	13,000
@@ -74,6 +86,9 @@ Total Denied Revenue	$76.7M
 Denial Rate	~9.4%
 Average Days in AR	~144 days
 
+
+
+
 Key Insights
 1. Commercial Payers Drive the Majority of Denied Revenue
 
@@ -81,10 +96,15 @@ The highest denial impact was observed among the following payers:
 
 Payer	Denied Revenue
 UnitedHealthcare	$14.4M
+
 Blue Cross Blue Shield	$13.5M
+
 Cigna	$10.5M
+
 Aetna	$9.8M
+
 Humana	$9.7M
+
 
 2. Operational Workflow Gaps Contribute to Denials
 
@@ -100,11 +120,14 @@ Documentation errors
 
 Improving front-end verification processes could significantly reduce preventable denials.
 
+
 3. High Accounts Receivable Risk
 
 A significant portion of claims remain unresolved beyond 120 days in A/R, increasing the risk of delayed or lost revenue.
 
 Targeted follow-up on aging claims could improve reimbursement timelines.
+
+
 
 Dashboard
 
@@ -121,6 +144,8 @@ Accounts Receivable Aging
 Example visualization:
 
 dashboard/dashboard_screenshot.png
+
+
 
 Business Recommendations
 
@@ -142,6 +167,8 @@ Develop payer-specific mitigation strategies
 
 Focusing on high-impact payers could reduce overall denial rates.
 
+
+
 Project Deliverables
 
 Included in this repository:
@@ -154,10 +181,12 @@ Executive summary report
 
 Dashboard visualizations
 
+
+
 Author
 
 Justin Clark
 Healthcare Data Analytics Portfolio
 
 LinkedIn:
-[Add your LinkedIn link here](https://www.linkedin.com/in/justin-clark-16176467/)
+[My LinkedIn link here](https://www.linkedin.com/in/justin-clark-16176467/)
